@@ -1,0 +1,29 @@
+.breadcrumps {
+    margin-bottom: 30px;
+}
+
+.breadcrumps-items {
+    display: flex;
+}
+
+.breadcrumps-item {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #BDBDBD;
+    margin-right: 35px;
+    position: relative;
+    text-decoration: none;
+}
+
+.breadcrumps-item:not(:last-child)::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #BDBDBD;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -20px;
+}

@@ -1,0 +1,57 @@
+.bird-food {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.food-list {
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 70px;
+    padding-bottom: 47px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 30px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.food-list2 {
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 70px;
+    padding-bottom: 26px;
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 10px 30px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.food-sub-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #828282;
+    margin-top: 10px;
+}
+
+.food-list-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+    position: absolute;
+}
+
+.food-item {
+    margin-right: 30px;
+}
+
+.food-item:last-child {
+    margin-right: 0;
+}
+
+

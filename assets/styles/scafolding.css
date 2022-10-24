@@ -18,6 +18,10 @@ main  {
     padding-bottom: 100px;
 }
 
+.main-extending  {
+    padding-bottom: 220px;
+}
+
 h2, h3 {
     margin: 0;
 }

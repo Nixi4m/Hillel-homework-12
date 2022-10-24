@@ -22,7 +22,7 @@
                             <span class="cart-counter">2</span>
                         </a>
                         <div class="dropdown">
-                            <a href="/" class="dropbtn">
+                            <a href="/">
                                 <img src="../assets/img/account.png" alt="">
                             </a>
                             <div class="dropdown-box">
@@ -39,9 +39,18 @@
             </div>
             <div class="header-bottom">
                 <nav class="nav">
-                    <a href="" class="link link-dropdown">
-                        Каталог
-                    </a>
+                    <div class="dropdown">
+                        <a href="/" class="link link-dropdown">
+                            Каталог
+                        </a>
+                        <div class="dropdown-box">
+                            <div class="dropdown-content">
+                                <div>
+                                    <a href="">Войти в аккаунт</a>
+                                    <a href="">Зарегистрироваться</a>     
+                                </div>  
+                            </div>
+                        </div>
                     <a href="" class="link">
                         О проекте
                     </a>
@@ -58,7 +67,7 @@
             </div>
         </div>
     </header>
-    <main class="main">
+    <main class="main main-extending">
         <section class="breadcrumps">
             <div class="wrapper">
                 <div class="breadcrumps-items">
@@ -107,62 +116,60 @@
         </section>
         <section>
             <div class="wrapper">
-                <div class="bird-food">
+                <div class="inline-fix">
                     <div class="food-list">
-                        <article class="food-item">
-                            <img src="../assets/img/food1.png" alt="">
-                            <h3 class="food-sub-title">
-                                Пшено
-                            </h3>    
-                        </article>
-                        <article class="food-item">
-                            <img src="../assets/img/food2.png" alt="">
-                            <h3 class="food-sub-title">
-                                Просо
-                            </h3>    
-                        </article>
-                        <article class="food-item">
-                            <img src="../assets/img/food3.png" alt="">
-                            <h3 class="food-sub-title">
-                                Лён
-                            </h3>    
-                        </article>
-                        <article class="food-item">
-                            <img src="../assets/img/food4.png" alt="">
-                            <h3 class="food-sub-title">
-                                Пшеница
-                            </h3>    
-                        </article>
+                        <div class="food-top">
+                            <h2 class="food-list-title">
+                                Виды зерён, которыми питаются данные птицы
+                            </h2>
+                        </div>
+                        <div class="food-middle">
+                            <div class="carousel-button-box">
+                                <button class="carousel-left-button">
+                                </button>
+                            </div>
+                                <img src="../assets/img/food1.png" alt="" class="food-item">
+                                <img src="../assets/img/food2.png" alt="" class="food-item">
+                                <img src="../assets/img/food3.png" alt="" class="food-item">
+                                <img src="../assets/img/food4.png" alt=""> 
+                            <div class="carousel-button-box">
+                                <button class="carousel-right-button">
+                                </button>
+                            </div>
+                        </div>       
+                        <div class="food-bottom">
+                            <p class="food-bottom-textbox food-sub-title">Пшено</p>
+                            <p class="food-bottom-textbox food-sub-title">Просо</p>
+                            <p class="food-bottom-textbox food-sub-title">Лен</p>
+                            <p class="food-bottom-textbox food-sub-title">Пшеница</p>
+                        </div>
                     </div>
                     <div class="food-list2">
-                        <article class="food-item">
-                            <img src="../assets/img/pack1.png" alt="">
-                            <h3 class="food-sub-title">
-                                Cliffi<br> 
-                                (Италия)
-                            </h3>    
-                        </article>
-                        <article class="food-item">
-                            <img src="../assets/img/pack2.png" alt="">
-                            <h3 class="food-sub-title">
-                                Benelux<br>
-                                корма
-                            </h3>    
-                        </article>
-                        <article class="food-item">
-                            <img src="../assets/img/pack3.png" alt="">
-                            <h3 class="food-sub-title">
-                                Cliffi<br> 
-                                (Италия)
-                            </h3>    
-                        </article>
-                        <article class="food-item">
-                            <img src="../assets/img/pack4.png" alt="">
-                            <h3 class="food-sub-title">
-                                Benelux<br>
-                                корма
-                            </h3>    
-                        </article>
+                        <div class="food-top">
+                            <h2 class="food-list-title">
+                                Виды зерён, которыми питаются данные птицы
+                            </h2>
+                        </div>
+                        <div class="food-middle">
+                            <div class="carousel-button-box">
+                                <button class="carousel-left-button">
+                                </button>
+                            </div>
+                                <img src="../assets/img/pack1.png" alt="" class="food-item">   
+                                <img src="../assets/img/pack2.png" alt="" class="food-item">
+                                <img src="../assets/img/pack3.png" alt="" class="food-item">
+                                <img src="../assets/img/pack4.png" alt=""> 
+                            <div class="carousel-button-box">
+                                <button class="carousel-right-button">
+                                </button>
+                            </div>
+                        </div>       
+                        <div class="food-bottom">
+                            <p class="food-bottom-textbox food-sub-title">Cliffi (Италия)</p>
+                            <p class="food-bottom-textbox food-sub-title">Benelux корма</p>
+                            <p class="food-bottom-textbox food-sub-title">Cliffi (Италия)</p>
+                            <p class="food-bottom-textbox food-sub-title">Benelux корма</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -225,20 +232,20 @@
                             1000 ГРН
                         </p>
                         <form class="card-packaging">
-                            <input type="radio" name="card-packaging" value="200" id="id-1" checked>
-                            <label class="card-package" for="id-1" checked>
+                            <input type="radio" name="card-packaging" value="200" id="id-5" checked>
+                            <label class="card-package" for="id-5" checked>
                                 200 г
                             </label>
-                            <input type="radio" name="card-packaging" value="400" id="id-2">
-                            <label class="card-package" for="id-2">
+                            <input type="radio" name="card-packaging" value="400" id="id-6">
+                            <label class="card-package" for="id-6">
                                 400 г
                             </label>
-                            <input type="radio" name="card-packaging" value="800" id="id-3">
-                            <label class="card-package" for="id-3">
+                            <input type="radio" name="card-packaging" value="800" id="id-7">
+                            <label class="card-package" for="id-7">
                                 800 г
                             </label>
-                            <input type="radio" name="card-packaging" value="1000" id="id-4"> 
-                            <label class="card-package" for="id-4">
+                            <input type="radio" name="card-packaging" value="1000" id="id-8"> 
+                            <label class="card-package" for="id-8">
                                 1 кг 
                             </label>
                         </form>
@@ -249,86 +256,82 @@
                             <button class="card-add-cart"></button>
                         </div>
                     </article>
-                    <div class="card-list">
-                        <article class="card">
-                            <div class="card-image-wrapper">
-                                <img src="../assets/img/product2.png" alt="" class="card-image">    
-                            </div>
-                            <h2 class="card-title">
-                                PADOVAN NOOMIX GOLD-ROSSO
-                            </h2>
-                            <h3 class="card-sub-title">
-                                Корм для птиц
-                            </h3>
-                            <p class="card-price">
-                                1000 ГРН
-                            </p>
-                            <form class="card-packaging">
-                                <input type="radio" name="card-packaging" value="200" id="id-1" checked>
-                                <label class="card-package" for="id-1" checked>
-                                    200 г
-                                </label>
-                                <input type="radio" name="card-packaging" value="400" id="id-2">
-                                <label class="card-package" for="id-2">
-                                    400 г
-                                </label>
-                                <input type="radio" name="card-packaging" value="800" id="id-3">
-                                <label class="card-package" for="id-3">
-                                    800 г
-                                </label>
-                                <input type="radio" name="card-packaging" value="1000" id="id-4"> 
-                                <label class="card-package" for="id-4">
-                                    1 кг 
-                                </label>
-                            </form>
-                            <div class= "card-actions">
-                                <a href="/" class="card-link">
-                                    Подробнее
-                                </a>
-                                <button class="card-add-cart"></button>
-                            </div>
-                        </article>
-                        <div class="card-list">
-                            <article class="card">
-                                <div class="card-image-wrapper">
-                                    <img src="../assets/img/product2.png" alt="" class="card-image">    
-                                </div>
-                                <h2 class="card-title">
-                                    PADOVAN NOOMIX GOLD-ROSSO
-                                </h2>
-                                <h3 class="card-sub-title">
-                                    Корм для птиц
-                                </h3>
-                                <p class="card-price">
-                                    1000 ГРН
-                                </p>
-                                <form class="card-packaging">
-                                    <input type="radio" name="card-packaging" value="200" id="id-1" checked>
-                                    <label class="card-package" for="id-1" checked>
-                                        200 г
-                                    </label>
-                                    <input type="radio" name="card-packaging" value="400" id="id-2">
-                                    <label class="card-package" for="id-2">
-                                        400 г
-                                    </label>
-                                    <input type="radio" name="card-packaging" value="800" id="id-3">
-                                    <label class="card-package" for="id-3">
-                                        800 г
-                                    </label>
-                                    <input type="radio" name="card-packaging" value="1000" id="id-4"> 
-                                    <label class="card-package" for="id-4">
-                                        1 кг 
-                                    </label>
-                                </form>
-                                <div class= "card-actions">
-                                    <a href="/" class="card-link">
-                                        Подробнее
-                                    </a>
-                                    <button class="card-add-cart"></button>
-                                </div>
-                            </article>
-                        </div>  
-                    </div>
+                    <article class="card">
+                        <div class="card-image-wrapper">
+                            <img src="../assets/img/product2.png" alt="" class="card-image">    
+                        </div>
+                        <h2 class="card-title">
+                            PADOVAN NOOMIX GOLD-ROSSO
+                        </h2>
+                        <h3 class="card-sub-title">
+                            Корм для птиц
+                        </h3>
+                        <p class="card-price">
+                            1000 ГРН
+                        </p>
+                        <form class="card-packaging">
+                            <input type="radio" name="card-packaging" value="200" id="id-9" checked>
+                            <label class="card-package" for="id-9" checked>
+                                200 г
+                            </label>
+                            <input type="radio" name="card-packaging" value="400" id="id-10">
+                            <label class="card-package" for="id-10">
+                                400 г
+                            </label>
+                            <input type="radio" name="card-packaging" value="800" id="id-11">
+                            <label class="card-package" for="id-11">
+                                800 г
+                            </label>
+                            <input type="radio" name="card-packaging" value="1000" id="id-12"> 
+                            <label class="card-package" for="id-12">
+                                1 кг 
+                            </label>
+                        </form>
+                        <div class= "card-actions">
+                            <a href="/" class="card-link">
+                                Подробнее
+                            </a>
+                            <button class="card-add-cart"></button>
+                        </div>
+                    </article>
+                    <article class="card">
+                        <div class="card-image-wrapper">
+                            <img src="../assets/img/product2.png" alt="" class="card-image">    
+                        </div>
+                        <h2 class="card-title">
+                            PADOVAN NOOMIX GOLD-ROSSO
+                        </h2>
+                        <h3 class="card-sub-title">
+                            Корм для птиц
+                        </h3>
+                        <p class="card-price">
+                            1000 ГРН
+                        </p>
+                        <form class="card-packaging">
+                            <input type="radio" name="card-packaging" value="200" id="id-13" checked>
+                            <label class="card-package" for="id-13" checked>
+                                200 г
+                            </label>
+                            <input type="radio" name="card-packaging" value="400" id="id-14">
+                            <label class="card-package" for="id-14">
+                                400 г
+                            </label>
+                            <input type="radio" name="card-packaging" value="800" id="id-15">
+                            <label class="card-package" for="id-15">
+                                800 г
+                            </label>
+                            <input type="radio" name="card-packaging" value="1000" id="id-16"> 
+                            <label class="card-package" for="id-16">
+                                1 кг 
+                            </label>
+                        </form>
+                        <div class= "card-actions">
+                            <a href="/" class="card-link">
+                                Подробнее
+                            </a>
+                            <button class="card-add-cart"></button>
+                        </div>
+                    </article> 
                 </div>
             </div>                
         </section>

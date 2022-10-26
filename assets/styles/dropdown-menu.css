@@ -1,36 +1,129 @@
-.dropdown {
+nav ul {
+    padding:0;
+    margin:0;
+    list-style: none;
     position: relative;
-    display: flex;
+    }
+
+nav ul li {
+    margin: 0px -7px 0 0;
+    display:inline-block;
+    background-color: #FFFFFF;
+    }
+
+nav a {
+    display:block;
+    padding:15px 0px;
+    color: #4F4F4F;;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration:none;
 }
-  
-.dropdown-content {
+
+nav div li a:hover {
+    background-color: #3FCF5E;
+}
+
+nav ul ul {
     display: none;
-    top: 35px;
     position: absolute;
+    top: 100%;
+}
+
+nav ul li:hover > ul {
+    display:block;
+}
+
+nav ul ul li {
+    width: 207px;
+    float:none;
+    display:list-item;
+    position: relative;
+}
+/* ---------- */
+.account-info ul {
+    padding:0;
+    margin:0;
+    list-style: none;
+    position: relative;
+    }
+
+.account-info ul li {
+    margin: 0;
+    display:inline-block;
+    background-color: #FFFFFF;
+    }
+
+.account-info a {
+    display:block;
+    padding:15px 0px;
+    color: #4F4F4F;;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration:none;
+}
+
+.account-info div a:hover {
+    background-color: #3FCF5E;
+    border-radius: 10px;
+    border: none;
+    box-sizing: border-box;
+}
+
+.account-info ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
     right: 0;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
+.account-info ul li:hover > ul {
+    display:block;
+}
+
+.account-info ul ul li {
+    width: 244px;
+    text-align: center;
+    display:list-item;
+    position: relative;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+}
+
+.account-wrapper li:first-child {
+    margin-bottom: 15px;
+}
+
+.list-wrapper {
     display: block;
+    padding: 21px 52px 34px 25px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 15px 30px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    
 }
-  
-.dropdown-content a:hover {
-    background-color: #06D10E;
-}
-.dropdown:hover .dropdown-content {
+
+.account-wrapper {
     display: block;
+    padding: 25px 20px 35px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 15px 30px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    
 }
 
-.float-left {
-    float: left;
+.account-box {
+    padding-top: 30px;
 }
 
-.float-right {
-    float: right;
+.list-box {
+    padding-top: 24px;
 }

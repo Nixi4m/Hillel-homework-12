@@ -76,6 +76,7 @@
 
 .nav {
     display: flex;
+    position: relative;
 
 }
 

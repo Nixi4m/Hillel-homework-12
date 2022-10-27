@@ -1,3 +1,15 @@
+.section-position {
+    margin-bottom: 120px;
+}
+
+.packs-section {
+    margin-top: 45px;
+} 
+
+.content-section{
+    margin-top: 50px;
+}
+
 .card-list {
     display: flex;
     flex-wrap: wrap;

@@ -21,8 +21,13 @@ nav a {
     text-decoration:none;
 }
 
+.list-box li a {
+    padding-left: 3px;
+}
+
 nav div li a:hover {
     background-color: #3FCF5E;
+    border-radius: 15px;
 }
 
 nav ul ul {
@@ -36,10 +41,9 @@ nav ul li:hover > ul {
 }
 
 nav ul ul li {
-    width: 207px;
+    width: 210px;
     display:list-item;
     position: relative;
-    z-index: 1;
 }
 /* ---------- */
 .account-info ul {
@@ -70,6 +74,7 @@ nav ul ul li {
     border-radius: 10px;
     border: none;
     box-sizing: border-box;
+    
 }
 
 .account-info ul ul {
@@ -105,7 +110,12 @@ nav ul ul li {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    position: absolute;
+    z-index: 2;
+    position: relative;
+}
+
+.list-box {
+    padding-top: 25px;
 }
 
 .account-wrapper {
@@ -124,6 +134,4 @@ nav ul ul li {
     padding-top: 30px;
 }
 
-.list-box {
-    padding-top: 24px;
-}
+

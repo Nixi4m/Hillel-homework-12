@@ -21,3 +21,7 @@ main  {
 h2, h3 {
     margin: 0;
 }
+
+.hidden-title {
+    display: none;
+}

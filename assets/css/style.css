@@ -50,6 +50,7 @@
 .food-bottom-textbox {
   width: 100px;
   text-align: center;
+  text-decoration: none;
 }
 
 .inline-fix {
@@ -163,6 +164,10 @@
   top: 50%;
   transform: translateY(-50%);
   right: -20px;
+}
+
+.breadcrumps a:last-child {
+  margin: 0;
 }
 
 .section-position {
@@ -482,6 +487,7 @@
   line-height: 21px;
   color: #4F4F4F;
   margin-right: 20px;
+  outline: none;
 }
 
 .dontation-confirm-btn {
@@ -739,8 +745,6 @@ nav ul ul li {
   background-repeat: no-repeat;
   position: absolute;
   left: 0%;
-  top: 50%;
-  margin-top: -10px;
 }
 
 .account-info {

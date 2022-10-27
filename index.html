@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/styles/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -17,7 +17,7 @@
                 <div class="header-info">
                     <a href="tel:88005553535" class="tel">8 920 999 43 50</a>
                     <div class="account-info">
-                        <a href="/" class="cart">
+                        <a href="./cart.html" class="cart">
                             <img src="./assets/img/cart.png" alt="">
                             <span class="cart-counter">2</span>
                         </a>
@@ -42,7 +42,7 @@
             <div class="header-bottom">
                 <nav class="nav">
                     <ul>
-                        <li><a href="#" class="nav-link links link-dropdown">Каталог</a>
+                        <li><a href="#" class="nav-link link-dropdown link-pos">Каталог</a>
                             <ul>
                                 <div class="list-box">
                                     <div class="list-wrapper">
@@ -55,8 +55,8 @@
                                 </div>
                             </ul>
                         </li>
-                        <li><a href="#" class="nav-link links">О проекте</a></li>
-                        <li><a href="#" class="nav-link links">Птицы</a></li>
+                        <li><a href="#" class="nav-link link-pos">О проекте</a></li>
+                        <li><a href="#" class="nav-link link-pos">Птицы</a></li>
                         <li><a href="#" class="nav-link">Пожертвования</a></li>
                     </ul>
                 </nav>
@@ -105,30 +105,32 @@
                         <p class="card-price">
                             1000 ГРН
                         </p>
-                        <form class="card-packaging">
-                            <input type="radio" name="card-packaging" value="200" id="id-1" checked>
-                            <label class="card-package" for="id-1">
-                                200 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="400" id="id-2">
-                            <label class="card-package" for="id-2">
-                                400 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="800" id="id-3">
-                            <label class="card-package" for="id-3">
-                                800 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="1000" id="id-4"> 
-                            <label class="card-package" for="id-4">
-                                1 кг 
-                            </label>
+                        <form>
+                            <div class="card-packaging">
+                                <input type="radio" name="card-packaging" value="200" id="id-1" checked>
+                                <label class="card-package" for="id-1">
+                                    200 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="400" id="id-2">
+                                <label class="card-package" for="id-2">
+                                    400 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="800" id="id-3">
+                                <label class="card-package" for="id-3">
+                                    800 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="1000" id="id-4"> 
+                                <label class="card-package" for="id-4">
+                                    1 кг 
+                                </label>
+                            </div>
+                            <div class= "card-actions">
+                                <a href="/" class="card-link">
+                                    Подробнее
+                                </a>
+                                <button class="card-add-cart"></button>
+                            </div>    
                         </form>
-                        <div class= "card-actions">
-                            <a href="/" class="card-link">
-                                Подробнее
-                            </a>
-                            <button class="card-add-cart"></button>
-                        </div>
                     </article>
                     <article class="card">
                         <span class="card-new-label">
@@ -146,30 +148,32 @@
                         <p class="card-price">
                             1000 ГРН
                         </p>
-                        <form class="card-packaging">
-                            <input type="radio" name="card-packaging" value="200" id="id-5" checked>
-                            <label class="card-package" for="id-5">
-                                200 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="400" id="id-6">
-                            <label class="card-package" for="id-6">
-                                400 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="800" id="id-7">
-                            <label class="card-package" for="id-7">
-                                800 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="1000" id="id-8"> 
-                            <label class="card-package" for="id-8">
-                                1 кг 
-                            </label>
+                        <form>
+                            <div class="card-packaging">
+                                <input type="radio" name="card-packaging" value="200" id="id-5" checked>
+                                <label class="card-package" for="id-5">
+                                    200 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="400" id="id-6">
+                                <label class="card-package" for="id-6">
+                                    400 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="800" id="id-7">
+                                <label class="card-package" for="id-7">
+                                    800 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="1000" id="id-8"> 
+                                <label class="card-package" for="id-8">
+                                    1 кг 
+                                </label>    
+                            </div>
+                            <div class= "card-actions">
+                                <a href="/" class="card-link">
+                                    Подробнее
+                                </a>
+                                <button class="card-add-cart"></button>
+                            </div>
                         </form>
-                        <div class= "card-actions">
-                            <a href="/" class="card-link">
-                                Подробнее
-                            </a>
-                            <button class="card-add-cart"></button>
-                        </div>
                     </article>
                     <article class="card">
                         <span class="card-new-label">
@@ -187,30 +191,33 @@
                         <p class="card-price">
                             1000 ГРН
                         </p>
-                        <form class="card-packaging">
-                            <input type="radio" name="card-packaging" value="200" id="id-9" checked>
-                            <label class="card-package" for="id-9">
-                                200 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="400" id="id-10">
-                            <label class="card-package" for="id-10">
-                                400 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="800" id="id-11">
-                            <label class="card-package" for="id-11">
-                                800 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="1000" id="id-12"> 
-                            <label class="card-package" for="id-12">
-                                1 кг 
-                            </label>
+                        <form>
+                            <div class="card-packaging">
+                                <input type="radio" name="card-packaging" value="200" id="id-9" checked>
+                                <label class="card-package" for="id-9">
+                                    200 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="400" id="id-10">
+                                <label class="card-package" for="id-10">
+                                    400 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="800" id="id-11">
+                                <label class="card-package" for="id-11">
+                                    800 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="1000" id="id-12"> 
+                                <label class="card-package" for="id-12">
+                                    1 кг 
+                                </label>
+                            </div>
+                            <div class= "card-actions">
+                                <a href="/" class="card-link">
+                                    Подробнее
+                                </a>
+                                <button class="card-add-cart"></button>
+                            </div>    
                         </form>
-                        <div class= "card-actions">
-                            <a href="/" class="card-link">
-                                Подробнее
-                            </a>
-                            <button class="card-add-cart"></button>
-                        </div>
+                        
                     </article>
                     <article class="card">
                         <div class="card-image-wrapper">
@@ -225,30 +232,32 @@
                         <p class="card-price">
                             1000 ГРН
                         </p>
-                        <form class="card-packaging">
-                            <input type="radio" name="card-packaging" value="200" id="id-13" checked>
-                            <label class="card-package" for="id-13">
-                                200 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="400" id="id-14">
-                            <label class="card-package" for="id-14">
-                                400 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="800" id="id-15">
-                            <label class="card-package" for="id-15">
-                                800 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="1000" id="id-16"> 
-                            <label class="card-package" for="id-16">
-                                1 кг 
-                            </label>
+                        <form>
+                            <div class="card-packaging">
+                                <input type="radio" name="card-packaging" value="200" id="id-13" checked>
+                                <label class="card-package" for="id-13">
+                                    200 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="400" id="id-14">
+                                <label class="card-package" for="id-14">
+                                    400 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="800" id="id-15">
+                                <label class="card-package" for="id-15">
+                                    800 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="1000" id="id-16"> 
+                                <label class="card-package" for="id-16">
+                                    1 кг 
+                                </label>    
+                            </div>
+                            <div class= "card-actions">
+                                <a href="/" class="card-link">
+                                    Подробнее
+                                </a>
+                                <button class="card-add-cart"></button>
+                            </div>
                         </form>
-                        <div class= "card-actions">
-                            <a href="/" class="card-link">
-                                Подробнее
-                            </a>
-                            <button class="card-add-cart"></button>
-                        </div>
                     </article>
                     <article class="card">
                         <div class="card-image-wrapper">
@@ -263,30 +272,32 @@
                         <p class="card-price">
                             1000 ГРН
                         </p>
-                        <form class="card-packaging">
-                            <input type="radio" name="card-packaging" value="200" id="id-17" checked>
-                            <label class="card-package" for="id-17">
-                                200 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="400" id="id-18">
-                            <label class="card-package" for="id-18">
-                                400 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="800" id="id-19">
-                            <label class="card-package" for="id-19">
-                                800 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="1000" id="id-20"> 
-                            <label class="card-package" for="id-20">
-                                1 кг 
-                            </label>
-                        </form>
-                        <div class= "card-actions">
+                        <form>
+                            <div class="card-packaging">
+                                <input type="radio" name="card-packaging" value="200" id="id-17" checked>
+                                <label class="card-package" for="id-17">
+                                    200 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="400" id="id-18">
+                                <label class="card-package" for="id-18">
+                                    400 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="800" id="id-19">
+                                <label class="card-package" for="id-19">
+                                    800 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="1000" id="id-20"> 
+                                <label class="card-package" for="id-20">
+                                    1 кг 
+                                </label>
+                            </div>
+                            <div class= "card-actions">
                             <a href="/" class="card-link">
                                 Подробнее
                             </a>
                             <button class="card-add-cart"></button>
-                        </div>
+                            </div>
+                        </form>
                     </article>
                     <article class="card">
                         <div class="card-image-wrapper">
@@ -301,30 +312,32 @@
                         <p class="card-price">
                             1000 ГРН
                         </p>
-                        <form class="card-packaging">
-                            <input type="radio" name="card-packaging" value="200" id="id-21" checked>
-                            <label class="card-package" for="id-21">
-                                200 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="400" id="id-22">
-                            <label class="card-package" for="id-22">
-                                400 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="800" id="id-23">
-                            <label class="card-package" for="id-23">
-                                800 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="1000" id="id-24"> 
-                            <label class="card-package" for="id-24">
-                                1 кг 
-                            </label>
-                        </form>
-                        <div class= "card-actions">
+                        <form>
+                            <div class="card-packaging">
+                                <input type="radio" name="card-packaging" value="200" id="id-21" checked>
+                                <label class="card-package" for="id-21">
+                                    200 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="400" id="id-22">
+                                <label class="card-package" for="id-22">
+                                    400 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="800" id="id-23">
+                                <label class="card-package" for="id-23">
+                                    800 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="1000" id="id-24"> 
+                                <label class="card-package" for="id-24">
+                                    1 кг 
+                                </label>
+                            </div>
+                            <div class= "card-actions">
                             <a href="/" class="card-link">
                                 Подробнее
                             </a>
                             <button class="card-add-cart"></button>
-                        </div>
+                            </div>
+                        </form>
                     </article>
                     <article class="card">
                         <div class="card-image-wrapper">
@@ -339,30 +352,32 @@
                         <p class="card-price">
                             1000 ГРН
                         </p>
-                        <form class="card-packaging">
-                            <input type="radio" name="card-packaging" value="200" id="id-25" checked>
-                            <label class="card-package" for="id-25">
-                                200 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="400" id="id-26">
-                            <label class="card-package" for="id-26">
-                                400 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="800" id="id-27">
-                            <label class="card-package" for="id-27">
-                                800 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="1000" id="id-28"> 
-                            <label class="card-package" for="id-28">
-                                1 кг 
-                            </label>
-                        </form>
-                        <div class= "card-actions">
+                        <form>
+                            <div class="card-packaging">
+                                <input type="radio" name="card-packaging" value="200" id="id-25" checked>
+                                <label class="card-package" for="id-25">
+                                    200 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="400" id="id-26">
+                                <label class="card-package" for="id-26">
+                                    400 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="800" id="id-27">
+                                <label class="card-package" for="id-27">
+                                    800 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="1000" id="id-28"> 
+                                <label class="card-package" for="id-28">
+                                    1 кг 
+                                </label>
+                            </div>
+                            <div class= "card-actions">
                             <a href="/" class="card-link">
                                 Подробнее
                             </a>
                             <button class="card-add-cart"></button>
-                        </div>
+                            </div>
+                        </form>
                     </article>
                     <article class="card">
                         <div class="card-image-wrapper">
@@ -377,30 +392,32 @@
                         <p class="card-price">
                             1000 ГРН
                         </p>
-                        <form class="card-packaging">
-                            <input type="radio" name="card-packaging" value="200" id="id-29" checked>
-                            <label class="card-package" for="id-29">
-                                200 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="400" id="id-30">
-                            <label class="card-package" for="id-30">
-                                400 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="800" id="id-31">
-                            <label class="card-package" for="id-31">
-                                800 г
-                            </label>
-                            <input type="radio" name="card-packaging" value="1000" id="id-32"> 
-                            <label class="card-package" for="id-32">
-                                1 кг 
-                            </label>
+                        <form>
+                            <div class="card-packaging">
+                                <input type="radio" name="card-packaging" value="200" id="id-29" checked>
+                                <label class="card-package" for="id-29">
+                                    200 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="400" id="id-30">
+                                <label class="card-package" for="id-30">
+                                    400 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="800" id="id-31">
+                                <label class="card-package" for="id-31">
+                                    800 г
+                                </label>
+                                <input type="radio" name="card-packaging" value="1000" id="id-32"> 
+                                <label class="card-package" for="id-32">
+                                    1 кг 
+                                </label>
+                            </div>
+                            <div class= "card-actions">
+                                <a href="/" class="card-link">
+                                    Подробнее
+                                </a>
+                                <button class="card-add-cart"></button>
+                            </div>
                         </form>
-                        <div class= "card-actions">
-                            <a href="/" class="card-link">
-                                Подробнее
-                            </a>
-                            <button class="card-add-cart"></button>
-                        </div>
                     </article>
                 </div>
             </div>
@@ -409,9 +426,11 @@
             <h2 class="hidden-title">Hidden</h2>
             <div class="wrapper">
                 <div class="page-links">
+                    <a href="/" class="page-before"></a>
                     <a href="/" class="page-link active-page-link">1</a>
-                    <a href="/" class="page-link">2</a>
+                    <a href="./pages/sparrow.html" class="page-link">2</a>
                     <a href="/" class="page-link">3</a>
+                    <a href="./pages/sparrow.html" class="page-after"></a>
                 </div>
             </div>
         </section>
@@ -419,19 +438,21 @@
     <footer class="footer">
         <div class="wrapper">
             <div class="footer-info">
-                <div>
+                <div class="footer-block    ">
                     <a href="" class="footer-link">Оплата</a>
                     <a href="" class="footer-link">Доставка</a>
                 </div>
                 <div class="social-network">
                     <a href="/" class="social-network-logo">
-                        <img src="./assets/img/tg-logo.png" alt="">
+                        <img src="./assets/img/vk-logo.png" alt="">
                     </a>
                     <a href="/" class="social-network-logo">
                         <img src="./assets/img/inst-logo.png" alt="">
                     </a>
                 </div>
+                <div class="footer-block">
                     <a href="tel:88005553535" class="footer-tel">8 920 999 43 50</a>
+                </div>
             </div>
         </div>
     </footer>    

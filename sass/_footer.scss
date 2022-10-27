@@ -1,0 +1,63 @@
+.footer {
+  background-color: #333333;
+  padding-top: 100px;
+  padding-bottom: 130px;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.footer-link {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  &:first-child {
+    margin-right: 47px;
+  }
+}
+
+.footer-tel {
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  text-decoration: none;
+  position: relative;
+  padding-left: 25px;
+}
+
+.social-network-logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 20px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+
+.footer-tel::before {
+  content: "";
+  background-image: url(../img/white-phone.png);
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0%;
+  top: 50%;
+  margin-top: -10px;
+}
+
+.footer-block {
+  display: flex;
+  width: 192px;
+  justify-content: flex-end;
+}

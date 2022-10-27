@@ -80,16 +80,8 @@
 
 }
 
-.links {    
+.link-pos {    
     margin-right: 40px;
-}
-
-.nav-link {
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 21px;
-    color: #4F4F4F;
-    text-decoration: none;
 }
 
 .link-dropdown{
@@ -109,10 +101,6 @@
     right: 0%;
     top: 50%;
     margin-top: -7.5px; 
-}
-
-.link:last-child{
-    margin-right: 0;
 }
 
 .search{

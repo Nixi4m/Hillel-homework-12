@@ -1,0 +1,125 @@
+.header {
+    background-color: #fff;
+    padding-top: 33px;
+    padding-bottom: 30px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.05), inset 0px -5px 15px rgba(255, 255, 255, 0.44);
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.header-info {
+  display: flex;
+  align-items: center;
+}
+
+.tel {
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+  text-decoration: none;
+  position: relative;
+  margin-right: 60px;
+  padding-left: 25px;
+
+  &::before {
+    content: "";
+    background-image: url(../img/black-phone.png);
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    margin-top: -10px;
+  }
+}
+
+.account-info {
+  display: flex;
+}
+
+.cart {
+  margin-right: 15px;
+  position: relative;
+}
+
+.cart-counter {
+  position: absolute;
+  top: 0;
+  right: -50%;
+  transform: translate(-50%, 50%);
+  background-color: #06D10E;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  position: relative;
+}
+
+.link-pos {
+  margin-right: 40px;
+}
+
+.link-dropdown {
+  position: relative;
+  padding-right: 19px;
+
+  &::after {
+    content: '';
+    background-image: url(../img/arrow-down.png);
+    width: 15px;
+    height: 15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    margin-top: -7.5px;
+  }
+}
+
+.search {
+  width: 345px;
+  height: 45px;
+  background-color: #F2F2F2;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 50px;
+  color: #000000;
+  background-image: url(../img/search.png);
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: right 23px center;
+
+  &::placeholder {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #828282;
+  }
+}

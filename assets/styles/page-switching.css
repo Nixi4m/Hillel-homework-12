@@ -11,7 +11,8 @@
 
 .page-link{
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
     color: #828282;
 }
 
@@ -23,7 +24,7 @@
     color: #219653;
 }
 
-.page-link:first-child::before {
+.page-before {
     content: '';
     width: 16px;
     height: 16px;
@@ -38,7 +39,7 @@
     margin-left: -75px;
 }
 
-.page-link:last-child:after {
+.page-after {
     content: '';
     width: 16px;
     height: 16px;

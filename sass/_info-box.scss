@@ -1,0 +1,28 @@
+.info-box {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.text-box {
+  width: 610px;
+  margin-left: 30px;
+}
+
+.text-box-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  color: #333333;
+  margin-bottom: 40px;
+}
+
+.content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #4F4F4F;
+}
+
+h1, p {
+  margin: 0;
+}
